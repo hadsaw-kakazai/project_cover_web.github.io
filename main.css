@@ -1,0 +1,178 @@
+body{
+    
+    height: 735px;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+  
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.cover{
+    height: 90%;
+    width: 100%;
+    background-position: center;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: white;
+    position: fixed;
+
+}
+
+
+.nav_logo{
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+   position: relative;
+   
+
+}
+
+img{
+    width: 20%;
+    height: 75%;
+    margin-top: 2%;
+    margin-left: 50%;
+}
+
+.nav_items{
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    
+    box-sizing: border-box;
+}
+
+.nav_items ul{
+    list-style: none;
+    display: inline;
+    margin-left: 40%;
+}
+
+.nav_items ul li{
+    display: inline-block;   
+    text-align: center;
+    margin-top: 2%;
+    padding-left: 2%;  
+}
+
+.nav_items ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+   
+   
+}
+
+
+ #content{
+    height: 30%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+   
+ }
+ #content h1{
+    font-size: 100px;
+
+}
+
+
+#content p{
+    
+}
+
+button{
+    margin-left: 10%;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(77, 77, 239);
+    color: white;
+    border: none;
+    position: fixed;
+}
+
+.scroll_down{
+    margin-top: 5%;
+    height: 10%;
+    width: 100%;
+   font-size: large;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+/* Media Queries */
+@media (min-width: 366px) and (max-width: 700px)  {
+    body{
+    
+        height: 500px;
+        width: 100%;
+        margin: 0;
+    }
+    
+        .nav_logo{
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+            position: relative;
+        
+
+        }
+
+        img{
+            width: 10%;
+            height: 75%;
+            margin-top: 2%;
+            margin-left: 45%;
+        }
+
+        #content h1{
+            font-size: 50px;   
+        }
+
+
+        .scroll_down{
+            margin-top: 30%;
+            height: 10%;
+            width: 100%;
+            font-size: large;
+            text-align: center;
+            padding-top: 2%;
+        }
+  }
+
+  @media (max-width:1200px) and (min-width: 700px) {
+    
+    .nav_logo{
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    
+
+    }
+
+    img{
+        width: 5%;
+        height: 75%;
+        margin-top: 1%;
+        margin-left: 50%;
+    }
+
+    #content h1{
+        font-size: 50px;   
+    }
+}
+
